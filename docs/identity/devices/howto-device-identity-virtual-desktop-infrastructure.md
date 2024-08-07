@@ -55,7 +55,7 @@ Before configuring device identities in Microsoft Entra ID for your VDI environm
 |   |   |   | Non-persistent | No |
 |   | Managed | Windows current | Persistent | Limited<sup>8</sup> |
 |   |   |   | Non-persistent | No |
-| Microsoft Entra registered | Federated/Managed | Windows current/Windows down-level | Persistent/Non-Persistent | Not Applicable |
+| Microsoft Entra registered | Federated/Managed | Windows current/Windows down-level | Persistent/Non-Persistent | Not Applicable | Limited<sup>9</sup> |
 
 <sup>1</sup> **Windows current** devices represent Windows 10 or newer, Windows Server 2016 v1803 or higher, and Windows Server 2019 or higher.
 
@@ -72,6 +72,8 @@ Before configuring device identities in Microsoft Entra ID for your VDI environm
 <sup>7</sup> **Non-Persistence support for Windows down-level** requires other consideration as documented in the guidance section.
 
 <sup>8</sup> **Microsoft Entra join support** is only available with Azure Virtual Desktop and Windows 365.
+
+<sup>9</sup> **Microsoft Entra Registered** We do not support Microsoft Entra Register devicces. Or if it is not applicable we should explain exactly why. This is generating a lot of confusion trought a lot of SE even the most senior ones and even SEE. We not more clarity on why Not applicable actually means
 
 ## Microsoft's guidance
 
